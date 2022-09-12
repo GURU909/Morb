@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Morb Mode",
+    "description": "Kill an animal every 6 in-game hours or go MORB MODE",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

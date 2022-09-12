@@ -1,0 +1,71 @@
+{
+  "mod_elements": [
+    {
+      "name": "MorbMode",
+      "type": "gamerule",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morbMode",
+      "metadata": {
+        "type": "logic"
+      },
+      "path": "~/GameRules"
+    },
+    {
+      "name": "OnCommand",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_command",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "command",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gamerule.morbMode.description": "Kill an animal every 6 in-game hours or go MORB MODE",
+      "gamerule.morbMode": "Morb Mode"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GameRules",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "morb",
+    "modName": "Morb",
+    "version": "1.0.0",
+    "author": "edgattob4020, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.morb",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
