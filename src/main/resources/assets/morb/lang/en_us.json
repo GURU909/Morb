@@ -1,4 +1,4 @@
 {
-  "gamerule.morbMode.description": "Kill an animal every 6 in-game hours or go MORB MODE",
+  "gamerule.morbMode.description": "Kill a mob or player every 6 minutes or go MORB MODE",
   "gamerule.morbMode": "Morb Mode"
 }

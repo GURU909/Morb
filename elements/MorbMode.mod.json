@@ -4,7 +4,7 @@
   "definition": {
     "type": "Logic",
     "displayName": "Morb Mode",
-    "description": "Kill an animal every 6 in-game hours or go MORB MODE",
+    "description": "Kill a mob or player every 6 minutes or go MORB MODE",
     "category": "PLAYER",
     "defaultValueLogic": false,
     "defaultValueNumber": 0

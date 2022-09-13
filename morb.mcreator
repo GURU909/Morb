@@ -22,8 +22,28 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "command",
-            "type": "string"
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MorbModeTracker",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morb_mode_tracker",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
           },
           {
             "name": "world",
@@ -33,11 +53,18 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "TicksElapsed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "gamerule.morbMode.description": "Kill an animal every 6 in-game hours or go MORB MODE",
+      "gamerule.morbMode.description": "Kill a mob or player every 6 minutes or go MORB MODE",
       "gamerule.morbMode": "Morb Mode"
     }
   },
