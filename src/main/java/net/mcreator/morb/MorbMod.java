@@ -26,6 +26,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.morb.init.MorbModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +44,8 @@ public class MorbMod {
 	public MorbMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MorbModItems.REGISTRY.register(bus);
 
 	}
 

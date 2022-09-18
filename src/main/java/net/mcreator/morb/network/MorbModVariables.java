@@ -109,7 +109,7 @@ public class MorbModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double TicksElapsed = 0;
+		public double TicksElapsed = 2.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)

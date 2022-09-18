@@ -1,4 +1,5 @@
 {
+  "item.morb.blood": "Blood",
   "gamerule.morbMode.description": "Kill a mob or player every 6 minutes or go MORB MODE",
   "gamerule.morbMode": "Morb Mode"
 }
