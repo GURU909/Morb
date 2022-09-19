@@ -49,7 +49,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_player_tick_count",
-      "path": "~/Procedures"
+      "path": "~/Commands"
     },
     {
       "name": "SetPlayerTickCountCommand",
@@ -67,6 +67,27 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BloodPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -113,10 +134,11 @@
   "workspaceSettings": {
     "modid": "morb",
     "modName": "Morb",
-    "version": "1.0.0",
-    "author": "edgattob4020, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "version": "0.1.0",
+    "description": "It\u0027s Morbin Time",
+    "author": "GURU909",
+    "websiteURL": "https://github.com/GURU909/Morb",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -124,6 +146,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created in MCreator. ",
     "modElementsPackage": "net.mcreator.morb",
     "lockBaseModFiles": false
   },

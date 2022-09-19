@@ -10,6 +10,8 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.network.chat.TextComponent;
@@ -66,6 +68,10 @@ public class OnPlayerTickProcedure {
 						_mcserv.getPlayerList().broadcastMessage(new TextComponent((entity.getDisplayName().getString() + " has gone MORB MODE!")),
 								ChatType.SYSTEM, Util.NIL_UUID);
 				}
+				if (entity instanceof LivingEntity _entity)
+					_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 630720000, 1));
+				if (entity instanceof LivingEntity _entity)
+					_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 630720000, 2));
 			}
 			if ((entity.getCapability(MorbModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new MorbModVariables.PlayerVariables())).TicksElapsed > 7200) {
@@ -73,7 +79,7 @@ public class OnPlayerTickProcedure {
 					_player.getAbilities().mayfly = (true);
 					_player.onUpdateAbilities();
 				}
-				entity.hurt(DamageSource.STARVE, (float) 0.1);
+				entity.hurt(DamageSource.STARVE, (float) 0.01);
 			}
 		}
 	}

@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="morb"
-version="1.0.0"
+version="0.1.0"
 displayName="Morb"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="edgattob4020, MCreator"
+credits="Created in MCreator. "
+displayURL="https://github.com/GURU909/Morb"
+authors="GURU909"
+description='''
+It's Morbin Time
+'''
 
 [[dependencies.morb]]
     modId="minecraft"
