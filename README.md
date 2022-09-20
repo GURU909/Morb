@@ -1,4 +1,8 @@
 # Morb
 The morbiest mod out there.
 
-So far consists of nothing. Will update this as more features are added.
+Items:
+Blood - Dropped by most red-blooded animals. Make sure to feed frequently so you don't go morb mode!
+
+Game Rule:
+Morb Mode - Consoom blood every six minutes or go MORB MODE!
