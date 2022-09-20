@@ -1,5 +1,9 @@
 {
+  "item.minecraft.splash_potion.effect.tummy_hurt_potion": "Tummy Hurt Juice in a Glass",
   "item.morb.blood": "Blood",
+  "item.minecraft.potion.effect.tummy_hurt_potion": "Tummy Hurt Juice",
   "gamerule.morbMode.description": "Kill a mob or player every 6 minutes or go MORB MODE",
-  "gamerule.morbMode": "Morb Mode"
+  "gamerule.morbMode": "Morb Mode",
+  "item.minecraft.lingering_potion.effect.tummy_hurt_potion": "Tummy Hurt For A While Juice",
+  "item.minecraft.tipped_arrow.effect.tummy_hurt_potion": "Tummy Hurt From Afar"
 }

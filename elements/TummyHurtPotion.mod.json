@@ -1,0 +1,39 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Tummy Hurt Juice",
+    "splashName": "Tummy Hurt Juice in a Glass",
+    "lingeringName": "Tummy Hurt For A While Juice",
+    "arrowName": "Tummy Hurt From Afar",
+    "effects": [
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 900,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 900,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "BAD_OMEN"
+        },
+        "duration": 900,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}
